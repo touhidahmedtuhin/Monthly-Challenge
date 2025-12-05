@@ -1,0 +1,12 @@
+{% comment %} {% load static %}
+{% block css_file %}
+ <link rel = "stylesheet" href = {% static "challenges/challenges.css" %}/>
+{% endblock css_file %} {% endcomment %}
+
+
+<header>
+  <nav>
+    <a href=" {% url 'home' %}">All Month Challenges</a>
+  </nav>
+</header>
+
